@@ -1,6 +1,6 @@
 # 🛍️ ProductHub
 
-**ProductHub** is an Android application that showcases a list of products fetched from a remote API. It is built using modern Android development practices like Clean Architecture, Dependency Injection (Koin), and Reactive Programming.
+**ProductHub** is an Android application that showcases a list of products fetched from a remote API (FakeStoreAPI). It is built using Clean Architecture, Dependency Injection (Koin), and Reactive Programming.
 
 ---
 
