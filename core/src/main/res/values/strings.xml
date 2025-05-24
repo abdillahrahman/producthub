@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_price">price</string>
+    <string name="item_name">item name</string>
+    <string name="image_item">image_item</string>
+
+    <string name="product_price">$%s</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProductHub</string>
+    <string name="menu_favorite">Favorite\n</string>
+
+    <string name="text_description">description\n</string>
+    <string name="something_wrong">something wrong…\n\n</string>
+    <string name="no_data">no data\n</string>
+    <string name="image_desc">detail image</string>
+    <string name="price">Price</string>
+    <string name="item_name">item name</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="product_price">$%s</string>
+
+    <string name="query_hint_home">Find Product</string>
+</resources>

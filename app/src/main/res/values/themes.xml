@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme with MaterialComponents -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorSurface">@color/white</item>
+        <item name="cardViewStyle">@style/Widget.MaterialComponents.CardView</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorSurface">@color/white</item>
+        <item name="cardViewStyle">@style/Widget.MaterialComponents.CardView</item>
+    </style>
+
+</resources>
