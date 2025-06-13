@@ -38,4 +38,8 @@ android {
 dependencies {
     implementation(project(":core"))
     implementation(project(":app"))
+
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
 }
