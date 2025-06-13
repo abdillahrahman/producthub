@@ -4,6 +4,7 @@ import android.app.Application
 import com.dicoding.producthub.core.di.databaseModule
 import com.dicoding.producthub.core.di.networkModule
 import com.dicoding.producthub.core.di.repositoryModule
+import com.dicoding.producthub.di.appModule
 import com.dicoding.producthub.di.useCaseModule
 import com.dicoding.producthub.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
@@ -19,6 +20,7 @@ class MyApplication : Application() {
             androidContext(this@MyApplication)
             modules(
                 listOf(
+                    appModule,
                     databaseModule,
                     networkModule,
                     repositoryModule,

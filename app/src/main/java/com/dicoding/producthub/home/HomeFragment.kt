@@ -100,6 +100,11 @@ class HomeFragment : Fragment() {
         super.onCreateOptionsMenu(menu, inflater)
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
     private fun filterList(query: String?) {
         val filteredList = if (!query.isNullOrEmpty()) {
             originalProductList.filter {

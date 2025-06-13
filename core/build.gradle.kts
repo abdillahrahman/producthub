@@ -13,6 +13,8 @@ android {
         minSdk = 24
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
+
+
     }
 
     buildTypes {
@@ -72,8 +74,10 @@ dependencies {
     api(libs.androidx.navigation.fragment.ktx.v273)
     api(libs.androidx.navigation.ui.ktx.v273)
 
-    testImplementation (libs.koin.test.junit4.v353)
     testImplementation(libs.koin.test.junit4)
     testImplementation (libs.mockito.kotlin.v540)
     testImplementation (libs.mockito.inline)
+
+    implementation(libs.android.database.sqlcipher)
+    implementation(libs.androidx.sqlite.ktx)
 }

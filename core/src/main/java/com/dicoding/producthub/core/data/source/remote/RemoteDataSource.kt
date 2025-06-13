@@ -9,8 +9,7 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 
 class RemoteDataSource(private val apiService: ApiService) {
-
-    suspend fun getAllProducts(): Flow<ApiResponse<List<ProductResponse>>> {
+    fun getAllProducts(): Flow<ApiResponse<List<ProductResponse>>> {
         return flow {
             try {
                 val response = apiService.getProducts()
