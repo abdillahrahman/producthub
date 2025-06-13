@@ -1,6 +1,7 @@
 [versions]
 agp = "8.6.0"
 koinTestJunit4 = "3.3.2"
+koinTestJunit4Version = "3.5.3"
 kotlin = "2.0.0"
 ksp = "2.0.0-1.0.22"
 coreKtx = "1.16.0"
@@ -9,6 +10,11 @@ constraintLayout= "2.2.1"
 junit = "4.13.2"
 androidxJunit = "1.2.1"
 espresso = "3.6.1"
+mockitoInline = "4.4.0"
+mockitoKotlin = "5.3.0"
+mockitoCore = "5.11.0"
+mockitoKotlinVersion = "2.2.0"
+mockitoMockitoKotlin = "5.4.0"
 navigationFragmentKtxVersion = "2.7.3"
 navigationUiKtxVersion = "2.7.3"
 recyclerview = "1.4.0"
@@ -36,6 +42,12 @@ junit = { module = "junit:junit", version.ref = "junit" }
 androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
 androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
 koin-test-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koinTestJunit4" }
+koin-test-junit4-v353 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koinTestJunit4Version" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
+mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockitoInline" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoKotlin" }
+mockito-kotlin-v540 = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoMockitoKotlin" }
+mockitokotlin2-mockito-kotlin = { module = "com.nhaarman.mockitokotlin2:mockito-kotlin", version.ref = "mockitoKotlinVersion" }
 recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
 material = {module = "com.google.android.material:material", version.ref = "material" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
